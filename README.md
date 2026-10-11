@@ -128,7 +128,7 @@ If selected, the deterministic safety baseline stays authoritative while OCR acc
 ## Links
 
 - Repository: <https://github.com/chenghan153/PrivacyShield>
-- Demo video: pending YouTube upload by the project owner
+- Demo video: [PrivacyShield Stage I Demo](https://youtu.be/0rrnMtbp9G0)
 - Competition page supplied with the brief: <https://contest.bhuntr.com/tw/39jg9vimiynrhlksze/home/>
 
 ## License

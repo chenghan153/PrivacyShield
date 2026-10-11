@@ -21,7 +21,7 @@ OUT = ROOT / "slides"
 ASSETS = ROOT / "demo" / "outputs"
 RESULTS = json.loads((ROOT / "evaluation" / "results.json").read_text(encoding="utf-8"))
 GITHUB = "https://github.com/chenghan153/PrivacyShield"
-YOUTUBE = os.environ.get("YOUTUBE_URL", "TO ADD AFTER OWNER UPLOAD")
+YOUTUBE = os.environ.get("YOUTUBE_URL", "https://youtu.be/0rrnMtbp9G0")
 
 NAVY = RGBColor(16, 42, 67)
 INK = RGBColor(23, 32, 51)
