@@ -1,0 +1,34 @@
+.venv/
+.cache/
+.tmp/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.env
+.env.*
+*.key
+*.pem
+secrets*
+private_data/
+/uploads/
+/outputs/
+*.egg-info/
+.DS_Store
+*.swp
+
+# Internal planning and submission operations are intentionally not public.
+plan.md
+work.md
+work_log.md
+STATUS.md
+ASUS_UGen_AI_League_*
+submission/
+
+# Generated delivery binaries are handed off separately, not pushed as source.
+slides/
+video/
+demo/*.pdf
+demo/outputs/*
+!demo/outputs/external_client_ui.png

@@ -1,0 +1,29 @@
+{
+  "detector": {
+    "cases": 23,
+    "positive_labels": 24,
+    "tp": 24,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "scope": "synthetic text fragments only; not production accuracy"
+  },
+  "benchmark": {
+    "documents": 5,
+    "document_type": "in-memory synthetic one-page text PDFs",
+    "audience": "Public",
+    "mean_ms": 136.89,
+    "median_ms": 79.04,
+    "min_ms": 72.79,
+    "max_ms": 355.44,
+    "findings_per_document": [
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    "manual_baseline": "not measured"
+  }
+}

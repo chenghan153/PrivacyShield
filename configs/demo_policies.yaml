@@ -1,0 +1,38 @@
+version: 1
+notice: Demo defaults only. Enterprise administrators must configure production policy.
+labels:
+  email: Personal email
+  phone: Phone number
+  api_key: Secret or API key
+  national_id: National identifier pattern
+  internal_project: Internal project name
+  client_name: Client name
+  financial: Financial detail
+audiences:
+  Internal Team:
+    email: allow
+    phone: allow
+    api_key: redact
+    national_id: review
+    internal_project: allow
+    client_name: allow
+    financial: review
+    default: review
+  External Client:
+    email: redact
+    phone: redact
+    api_key: redact
+    national_id: redact
+    internal_project: redact
+    client_name: review
+    financial: redact
+    default: review
+  Public:
+    email: redact
+    phone: redact
+    api_key: redact
+    national_id: redact
+    internal_project: redact
+    client_name: redact
+    financial: redact
+    default: review

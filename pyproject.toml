@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "privacyshield"
+version = "0.1.0"
+description = "Audience-aware, local-first redaction for screenshots and documents"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+license = {text = "MIT"}
+dependencies = [
+  "Pillow==11.3.0",
+  "PyMuPDF==1.26.4",
+  "PyYAML==6.0.3",
+  "pytesseract==0.3.13",
+  "streamlit==1.50.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest==8.4.2",
+  "python-pptx==1.0.2",
+  "reportlab==4.4.4",
+]
+
+[tool.setuptools.packages.find]
+include = ["privacyshield*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
